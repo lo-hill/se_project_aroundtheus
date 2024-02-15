@@ -1,0 +1,8 @@
+.header {
+  padding-top: 45px;
+  border-bottom: solid #545454 1px;
+}
+
+.header__logo {
+  padding-bottom: 41px;
+}
