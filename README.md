@@ -2,20 +2,22 @@
 
 ### Overview
 
-- Intro
-- Figma
-- Images
+- Description
+- Figma and other Tech
+- GitHub
 
-**Intro**
+**Description**
 
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This project is made so all the elements are displayed correctly on popular screen sizes. The project displays various images with descriptions of their locations and offers several button features to indicate potential interactivity with the page.
 
-**Figma**
+**Figma and other Tech**
 
 - [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)
 
-**Images**
+- HTML and CSS design for a fun and immersive project
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+**GitHub**
+
+- [Link to GitHub] (https://github.com/lo-hill/se_project_aroundtheus)
 
 Good luck and have fun!!
