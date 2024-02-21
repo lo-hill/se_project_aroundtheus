@@ -36,3 +36,8 @@
   width: 21px;
   border: none;
 }
+
+.card__like-button:hover {
+    opacity: .5;
+    cursor: pointer;
+}
