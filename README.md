@@ -5,6 +5,7 @@
 - Description
 - Figma and other Tech
 - GitHub
+- How it Works
 
 **Description**
 
@@ -20,4 +21,9 @@ This project is made so all the elements are displayed correctly on popular scre
 
 - [Link to GitHub](https://lo-hill.github.io/se_project_aroundtheus/)
 
-Good luck and have fun!!
+
+**How it Works**
+
+- [Link to Video](https://drive.google.com/file/d/1QbqmQs4geGSUTRJYg-BAQosHhUgZ1ioU/view?usp=sharing)
+
+- See an overview of how this website was made any everything I learned while making it!
