@@ -18,6 +18,6 @@ This project is made so all the elements are displayed correctly on popular scre
 
 **GitHub**
 
-- [Link to GitHub] (https://github.com/lo-hill/se_project_aroundtheus)
+- [Link to GitHub](https://lo-hill.github.io/se_project_aroundtheus/)
 
 Good luck and have fun!!
