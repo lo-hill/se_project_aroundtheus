@@ -1,4 +1,4 @@
-let initialCards = [
+const initialCards = [
   {
     name: "Yosemite Valley",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/around-project/yosemite.jpg",
@@ -55,6 +55,13 @@ function getCardElement(cardData) {
     return cardElement;
 }
 
+function fillProfileForm() {
+    profileTitleInput.value = profileTitle.textContent;
+    profileDescriptionInput.value = profileDescription.textContent;
+  
+    profileEditModal.classList.add("modal_opened");
+}
+
 /* Event Handlers */
 function handleEditProfileSubmit(e) {
     e.preventDefault();
@@ -64,12 +71,7 @@ function handleEditProfileSubmit(e) {
 }
 
 /* Event Listeners */
-profileEditButton.addEventListener("click", () => {
-  profileTitleInput.value = profileTitle.textContent;
-  profileDescriptionInput.value = profileDescription.textContent;
-
-  profileEditModal.classList.add("modal_opened");
-});
+profileEditButton.addEventListener("click", fillProfileForm);
 
 profileEditClose.addEventListener("click", closePopUp);
 

@@ -33,14 +33,14 @@
             <button
               class="profile__edit-button"
               id="profile-edit-button"
+              type="button"
             ></button>
             <p class="profile__description">Explorer</p>
           </div>
-          <button class="profile__add-button"></button>
+          <button class="profile__add-button" type="button"></button>
         </section>
         <section class="cards page__section">
           <ul class="cards__list">
-
           </ul>
         </section>
       </main>
@@ -50,8 +50,8 @@
     </footer>
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
-        <button class="modal__close" id="profile-edit-close"></button>
-        <p class="modal__header">Edit profile</p>
+        <button class="modal__close" id="profile-edit-close" type="button"></button>
+        <h2 class="modal__header">Edit profile</h2>
         <form class="modal__form">
           <input
             class="modal__input"
@@ -59,6 +59,7 @@
             type="text"
             name="title"
             placeholder="Name"
+            required
           />
           <input
             class="modal__input"
@@ -66,8 +67,9 @@
             type="text"
             name="description"
             placeholder="Description"
+            required
           />
-          <button class="modal__button">Save</button>
+          <button class="modal__button" type="submit">Save</button>
         </form>
       </div>
     </div>
