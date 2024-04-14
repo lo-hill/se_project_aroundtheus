@@ -48,6 +48,7 @@
     <footer class="footer">
       <p class="footer__copyright">Lo Hill @ 2024 Around the U.S</p>
     </footer>
+    <!-- edit modal -->
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
         <button class="modal__close" id="profile-edit-close" type="button"></button>
@@ -73,6 +74,33 @@
         </form>
       </div>
     </div>
+    <!-- add card modal -->
+    <div class="modal" id="add-card-modal">
+      <div class="modal__container">
+        <button class="modal__close" id="profile-edit-close" type="button"></button>
+        <h2 class="modal__header">New Place</h2>
+        <form class="modal__form">
+          <input
+            class="modal__input"
+            id="add-card-title"
+            type="text"
+            name="title"
+            placeholder="Title"
+            required
+          />
+          <input
+            class="modal__input"
+            id="add-card-link"
+            type="text"
+            name="link"
+            placeholder="Image link"
+            required
+          />
+          <button class="modal__button" type="submit">Create</button>
+        </form>
+      </div>
+    </div>
+
     <template id="card-template">
       <li class="card">
         <img
