@@ -48,6 +48,7 @@
     <footer class="footer">
       <p class="footer__copyright">Lo Hill @ 2024 Around the U.S</p>
     </footer>
+
     <!-- edit modal -->
     <div class="modal" id="profile-edit-modal">
       <div class="modal__container">
@@ -74,6 +75,7 @@
         </form>
       </div>
     </div>
+
     <!-- add card modal -->
     <div class="modal" id="add-card-modal">
       <div class="modal__container">
@@ -101,6 +103,16 @@
       </div>
     </div>
 
+    <!-- add preview modal -->
+    <div class="modal modal__preview" id="preview-modal">
+      <div class="modal__container modal__container-image" >
+        <button class="modal__close modal__close-preview" id="preview-modal-close" type="button"></button>
+        <img class="modal__image" src="" alt="">
+        <p class="modal__image-label"></p>
+      </div>
+    </div>
+
+    <!-- card template -->
     <template id="card-template">
       <li class="card">
         <button class="card__trash-button"></button>

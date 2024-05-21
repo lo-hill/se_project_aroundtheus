@@ -17,15 +17,19 @@
 }
 
 .card__trash-button:hover {
-  opacity: .5;
+  opacity: 0.5;
   cursor: pointer;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .card__image {
   height: 282px;
   width: 282px;
   border-radius: 10px 10px 0 0;
+}
+
+.card__image:hover {
+  cursor: pointer;
 }
 
 .card__description {
@@ -50,9 +54,10 @@
 }
 
 .card__like-button {
-  background: transparent url(../images/like-button-inactive.svg) center no-repeat;
+  background: transparent url(../images/like-button-inactive.svg) center
+    no-repeat;
   height: 19px;
-  width:21px;
+  width: 21px;
   border: none;
   background-size: 21px 18px;
   padding: 0;
@@ -64,7 +69,7 @@
 }
 
 .card__like-button:hover {
-    opacity: .5;
-    cursor: pointer;
-    transition: opacity .3s;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s;
 }
